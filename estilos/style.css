@@ -38,10 +38,8 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    transition: width .3s, heith .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
@@ -55,5 +53,4 @@ section#login > div#imagem{
 section#login > div#formlario {
     padding: 10px;
     display: block;
-
 }
