@@ -36,7 +36,7 @@ section#login {
     transform: translate(-50%,-50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     transition: width .3s, heith .3s;
     transition-timing-function: ease;
@@ -61,5 +61,58 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #e0e4ce;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #6e9987;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #a5e5ca;
+    color: #6e9987;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #6e9987;
+    border-radius: 7px;
+    color: #6e9987;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #a5e5ca;
+}
+
+form > a.botao > span {
     font-size: 0.8em;
 }
